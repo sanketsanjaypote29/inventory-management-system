@@ -90,7 +90,7 @@ curl -X GET http://localhost:3000/api/cart/c1
 
 ## Future Enhancements
 
-Implement authentication and authorization for inventory management endpoints.
-Add a database to persist data.
-Implement more complex discount rules and additional discount types.
-Add support for multiple currencies and internationalization.
+- **Implement authentication and authorization for inventory management endpoints.**
+- **Add a database to persist data.**
+- **Implement more complex discount rules and additional discount types.**
+- **Add support for multiple currencies and internationalization.**
