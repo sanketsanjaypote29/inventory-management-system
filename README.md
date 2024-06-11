@@ -45,7 +45,7 @@ inventory-management-system/
 
 the product from the inventory. Returns an error if there are not enough items.
 
-### Add Item to Cart
+## Add Item to Cart
 
 - **URL:** `/api/cart/add`
 - **Method:** `POST`
@@ -56,10 +56,10 @@ the product from the inventory. Returns an error if there are not enough items.
     "productId": "p1",
     "quantity": 10
   }
-##Testing the API
+## Testing the API
 Use tools like Postman or cURL to test the API endpoints.
 
-##Example Requests
+## Example Requests
 Add items to inventory
 
 
@@ -83,11 +83,11 @@ Get customer cart
 
 curl -X GET http://localhost:3000/api/cart/c1
 
-##Edge Cases Covered
-##Inventory Management: Ensures that items cannot be removed if the quantity is insufficient.
-##Cart Management: Ensures that items cannot be added to the cart if there are not enough items in the inventory.
-##Discount Application: Ensures that the discount does not exceed the maximum discount cap specified.
-##Future Enhancements
+## Edge Cases Covered
+## Inventory Management: Ensures that items cannot be removed if the quantity is insufficient.
+## Cart Management: Ensures that items cannot be added to the cart if there are not enough items in the inventory.
+## Discount Application: Ensures that the discount does not exceed the maximum discount cap specified.
+## Future Enhancements
 Implement authentication and authorization for inventory management endpoints.
 Add a database to persist data.
 Implement more complex discount rules and additional discount types.
