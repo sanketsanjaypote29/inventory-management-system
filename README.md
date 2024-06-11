@@ -84,9 +84,9 @@ Get customer cart
 curl -X GET http://localhost:3000/api/cart/c1
 
 ## Edge Cases Covered
-Inventory Management: Ensures that items cannot be removed if the quantity is insufficient.
-Cart Management: Ensures that items cannot be added to the cart if there are not enough items in the inventory.
-Discount Application: Ensures that the discount does not exceed the maximum discount cap specified.
+- **Inventory Management: Ensures that items cannot be removed if the quantity is insufficient.**
+- **Cart Management: Ensures that items cannot be added to the cart if there are not enough items in the inventory.**
+- **Discount Application: Ensures that the discount does not exceed the maximum discount cap specified.**
 
 ## Future Enhancements
 
