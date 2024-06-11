@@ -36,11 +36,11 @@ inventory-management-system/
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
+   ``` bash
    git clone https://github.com/your-username/inventory-management-system.git
    cd inventory-management-system
-2. npm install
-3. node src/app.js
+    npm install
+    node src/app.js ```
 
 
 the product from the inventory. Returns an error if there are not enough items.
