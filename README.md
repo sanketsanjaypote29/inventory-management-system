@@ -37,8 +37,8 @@ inventory-management-system/
 
 1. **Clone the repository:**
    ``` bash
-   git clone https://github.com/your-username/inventory-management-system.git
-   cd inventory-management-system
+    git clone https://github.com/your-username/inventory-management-system.git
+    cd inventory-management-system
     npm install
     node src/app.js ```
 
