@@ -14,6 +14,7 @@ The Inventory Management System is a backend service for an e-commerce store imp
 - **Retrieve customer cart:** Provides the current state of a customer’s shopping cart.
 
 **Directory Structure:**
+```bash
 inventory-management-system/
 ├── node_modules/
 ├── src/
@@ -29,6 +30,7 @@ inventory-management-system/
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
 
 
 ## Installation
