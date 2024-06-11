@@ -20,7 +20,7 @@ const addItemToCart = (customerId, productId, quantity, inventory) => {
   return true;
 };
 
-const getCart = (customerId) => carts[customerId] || {};
+const getCart = (customerId) => carts[customerId] ||  {};
 
 module.exports = {
   addItemToCart,

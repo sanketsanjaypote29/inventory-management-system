@@ -94,3 +94,6 @@ curl -X GET http://localhost:3000/api/cart/c1
 - **Add a database to persist data.**
 - **Implement more complex discount rules and additional discount types.**
 - **Add support for multiple currencies and internationalization.**
+
+## Postman Documentation
+**Link:- https://documenter.getpostman.com/view/26057376/2sA3XMiiY4**
