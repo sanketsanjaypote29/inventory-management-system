@@ -13,8 +13,7 @@ The Inventory Management System is a backend service for an e-commerce store imp
 - **Retrieve inventory:** Provides a list of all products in the inventory.
 - **Retrieve customer cart:** Provides the current state of a customer’s shopping cart.
 
-## Directory Structure
-
+**Directory Structure:**
 inventory-management-system/
 ├── node_modules/
 ├── src/
